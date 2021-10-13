@@ -1,0 +1,32 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+}
+
+.app > .graph-wrapper {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden
+}
+
+.graph-wrapper > .y-axis-wrapper {
+  background: white;
+  position: sticky;
+  left: 0;
+  z-index: 3;
+}
+
+button {
+  margin-top: 50px;
+  padding: 10px 10px;
+  background: #4a90e2;
+  color: white;
+  border-radius: 1em;
+}
+
+button:focus {
+  outline: 0;
+}
